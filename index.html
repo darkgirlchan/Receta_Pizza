@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+</head>
+<body>
+    <header>
+        <h1>Como Se Hace una Pizza</h1>
+        <h2>Paso a paso para que seas todo un Michipizzero</h2>
+    </header>
+    <img src="img/Inicio.png" alt="pizza ideal">
+    <section>
+        <h2>informaion de la receta</h2>
+        <ul>
+            <li><strong>Tiempo aproximado de preparación: </strong><time datetime="PT1h40M">1 hora y 40 minutos</time> en total. (Incluye 15 minutos de preparación/amasado, <time datetime="PT1H">1 hora </time> de leudado para la masa y de 10 a 12 minutos de horneado).</li>
+            <li><strong>Número de porciones: </strong>2 pizzas medianas (unas 8 porciones o rebanadas en total, ideal para 3 o 4 personas).</li>
+            <li><strong>Nivel de dificultad: </strong>Fácil / Principiante. (No requiere técnicas avanzadas de panadería, solo un poco de paciencia para el amasado y el reposo).</li>
+            <li><strong>Tipo de comida: </strong> Plato principal / Comida rápida casera.</li>
+            <li><strong>Lugar de origen: </strong>Nápoles, Italia. (Aunque la pizza actual es un plato completamente global, la base tradicional de masa, tomate y mozzarella nació en esta región italiana).</li>
+        </ul>
+    </section>
+    <section>
+    <h3>Video Explicativo</h3>
+    <p>te voy a presentar la informacion referente a como cocinar una pizza mediante el video a continuacion</p>
+    <iframe src="https://www.youtube.com/embed/vwWXj4eZHB8" title="Tu PRIMERA pizza casera perfecta: guía completa para principiantes"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h3>¿Quedaste con dudas?</h3>
+    <p>A continuacion te presentare informacion paso a paso con todos los ingredientes eh informacion de cada una de las partes e informacion adicional</p>
+    </section>
+    <nav>
+    <ul>
+        <li><a href="masa.html">paso a paso para la hacer la masa</a></li>
+        <li><a href="montaje.html">paso a paso del montaje luego de la masa</a></li>
+        <li><a href="consejosVariaciones.html">Consejos y variaciones para preparar la receta</a></li>
+        <li><a href="curiosidadesSustituciones.html">curiosidades y posibles sustituciones</a></li>
+    </ul>
+</nav>
+<section>
+    <h2>informacion nutricional</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>calorias</th>
+                    <th>grasa</th>
+                    <th>carbohidratos</th>
+                    <th>proteina</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>258</td>
+                    <td>11,37g</td>
+                    <td>28,87g</td>
+                    <td>9,53g</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>desglose</h3>
+        <p>puedes encontrar aun mas detalle referente a la tabla nutricional, y lo podras agregar a tu aplicacion de seguimiento de caloriasen el siguiente link: <a href="https://www.fatsecret.cl/calorías-nutrición/genérico/pizza-casera">Fatsecret</a></p>
+</section>
+<section>
+    <nav>
+        <h2>donde encontrarnos</h2>
+        <p><strong>nos puedes encontrar en la direccion</strong></p>
+        <p>Pje. Don José Miguel 5 Sur 756, 8150000 Puente Alto, Región Metropolitana, Chile</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.0715136900244!2d-70.59062291762754!3d-33.603448904560715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d743ab141107%3A0x8bf3c096aa7c4cf9!2sMichipizzas!5e0!3m2!1ses-419!2sco!4v1788039654111!5m2!1ses-419!2sco" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </nav>
+    <section>
+        <h2>Contactenos</h2>
+        <form>
+            
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                <label for="fecha_nacimiento">fecha de nacimiento</label>
+                <input type="date" default="2026-06-08" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electronico" required>
+                <label for="celular">Celular</label>
+                <input type="tel" id="celular"name="celular" placeholder="ingrese su celular">
+            </fieldset>
+            <fieldset>
+                <legend>opinion</legend>
+                <label for="nota">califiquenos</label>
+                <input type="range" id="nota" name="nota" min="1" max="10" value="5">
+                <label for="intereses">Recomendacion</label>
+                <select id="intereses" name="preferencias" required>
+                    <option value="">seleccione una opcion</option>
+                    <option value="recetas">recetas</option>
+                    <option value="consejos">consejos de cocinas</option>
+                    <option value="eventos">eventos gastronomicos</option>
+                    <option value="comer">Que me inviten a comer</option>
+                </select>
+                <label for="opinion">Cuentanos tu opinion</label>
+                <textarea id="opinion" name="opinio" placeholder="escriba su mensaje aqui ...." required></textarea>
+                <input type="checkbox" id="terminos"name="terminos"> 
+                <label for="terminos">Acepta terminos y condiciones</label>
+            </fieldset>
+            <fieldset>
+                <legend>informacion extra</legend>
+                <label for="foto">Como te quedo la pizza</label>
+                <input type="file" id="foto" name="foto">
+                <label for="link">¿quieres trabajar con nosotros? comparte el linkdl</label>
+                <input type="url" id="link" name="link">
+            <button type="submit">Suscribirme</button>
+            </fieldset>
+        </form>
+    </section>
+    <section>
+    <h2>
+        Recomendaciones
+    </h2>
+    <P>cualquier recomendacion relacionada a mejorar la receta de pizzas puedes enviarla a los siguientes canales</P>
+    <table>
+        <thead>
+            <tr>
+            <th>redes</th>
+            <th>aparecemos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>instagram</td>
+                <td><a href="https://www.facebook.com/p/Michipizzas-61578908252966/">@Michipizzas </a></td>
+            </tr>
+            <tr>
+                <td>facebook</td>
+                <td><a href="https://www.facebook.com/p/Michipizzas-61578908252966/">Michipizzas </a></td>
+            </tr>
+            <tr>
+                <td>whatsapp</td>
+                <td>3000000000</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<footer>
+  <p>&copy; 2026 Pizzas para michis. Todos los derechos reservados fuente de la receta youtube y gemini. danna rendon</p> 
+</footer>
+</body>
+</html>
